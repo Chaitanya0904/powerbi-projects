@@ -1,4 +1,4 @@
-# 🌮 Taco Mania QSR – Financial Insights Dashboard
+#  Taco Mania QSR – Financial Insights Dashboard
 
 ## Overview
 
@@ -9,7 +9,8 @@ This **Power BI dashboard** was developed for **Taco Mania**, a Quick Service Re
 - Business Optimization Insights  
 - Financial Planning & Budget Recommendations  
 
-📊 **Live Dashboard**: *(Add link here if publicly accessible)*
+📊 **Live Dashboard**: 
+("https://app.powerbi.com/viewr=eyJrIjoiNmIyZDgwYmYtYzRiMS00NTFlLTk4MjgtYmIyYTQ0ZTE1YzdjIiwidCI6ImRiMDlkOWRmLWM4NmQtNDAyMy05YzY2LWM2M2JlMWJkY2U4ZCJ9")
 
 ---
 
@@ -41,7 +42,7 @@ This **Power BI dashboard** was developed for **Taco Mania**, a Quick Service Re
 
 ---
 
-## 🧱 Data Modeling
+##  Data Modeling
 
 ![Data Model](https://github.com/user-attachments/assets/380bec40-a4b8-4af2-985c-5c5c92696815)
 
@@ -49,7 +50,7 @@ This **Power BI dashboard** was developed for **Taco Mania**, a Quick Service Re
 
 ## 📊 Insights & Recommendations
 
-### 💰 Financial Overview
+###  Financial Overview
 
 - **Net Revenue (NR)**: ₹560.07 million – indicating strong sales performance.  
 - **Gross Profit (GP)**: ₹162.50 million – reflects healthy product margins.  
@@ -58,7 +59,7 @@ This **Power BI dashboard** was developed for **Taco Mania**, a Quick Service Re
 - **Units Sold**: 264.95K – showcases significant market demand.  
 - **SKUs**: 4,207 – indicates a broad product portfolio.
 
-### 🧁 Revenue by Category
+###  Revenue by Category
 
 - **Top Category**: Frozen – ₹221.17 million  
 - Other strong performers:
@@ -66,7 +67,7 @@ This **Power BI dashboard** was developed for **Taco Mania**, a Quick Service Re
   - Crumbs – ₹76.48 million  
 - Lower contributors: Protein, Fresh, Cakes, Counters
 
-### 📍 Revenue by Location
+###  Revenue by Location
 
 - **Top Location**: Uttar Pradesh – ₹193.35 million  
 - Other major locations:
@@ -77,7 +78,7 @@ This **Power BI dashboard** was developed for **Taco Mania**, a Quick Service Re
 
 ---
 
-## 🔧 Business Optimization Strategy
+##  Business Optimization Strategy
 
 ### 📈 Mekko Chart
 
@@ -93,7 +94,7 @@ This **Power BI dashboard** was developed for **Taco Mania**, a Quick Service Re
 
 ---
 
-## 💸 Budgeting Analysis
+##  Budgeting Analysis
 
 ### 📊 PVM (Planned vs. Variance vs. Margin) Analysis
 

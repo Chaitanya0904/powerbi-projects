@@ -1,0 +1,18 @@
+TCS Financail Analysis
+
+Overview
+This dashboard main aim is to provide a detailed financial analysis for TCS, highlighting revenue trends, profitability metrics, and growth patterns to help assess thier financial health.
+
+live dashboard link
+
+Problem Statement
+Income statement analysis 
+Balance sheet analysis
+Cashflow analysis
+
+Data acquisition &  Validation
+Extracted financial data worth 10 years of financial data which includes income statement,balance sheet,cashflow
+from finance portal through api
+
+Data Modelling
+

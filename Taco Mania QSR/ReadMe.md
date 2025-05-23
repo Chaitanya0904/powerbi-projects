@@ -10,7 +10,7 @@ This **Power BI dashboard** was developed for **Taco Mania**, a Quick Service Re
 - Financial Planning & Budget Recommendations  
 
 📊 **Live Dashboard**: 
-("https://app.powerbi.com/viewr=eyJrIjoiNmIyZDgwYmYtYzRiMS00NTFlLTk4MjgtYmIyYTQ0ZTE1YzdjIiwidCI6ImRiMDlkOWRmLWM4NmQtNDAyMy05YzY2LWM2M2JlMWJkY2U4ZCJ9")
+(https://app.powerbi.com/view?r=eyJrIjoiNmIyZDgwYmYtYzRiMS00NTFlLTk4MjgtYmIyYTQ0ZTE1YzdjIiwidCI6ImRiMDlkOWRmLWM4NmQtNDAyMy05YzY2LWM2M2JlMWJkY2U4ZCJ9)
 
 ---
 

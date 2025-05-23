@@ -10,13 +10,13 @@ This project presents a Power BI dashboard developed for **Tata Power** to uncov
 
 ## 💡 Problem Statement
 
-- 📌 Visualize and analyze power generation trends across energy types.
-- 📌 Assess carbon emissions per plant to support environmental strategies.
-- 📌 Identify operational inefficiencies and improvement areas via PVM analysis.
+-  Visualize and analyze power generation trends across energy types.
+-  Assess carbon emissions per plant to support environmental strategies.
+-  Identify operational inefficiencies and improvement areas via PVM analysis.
 
 ---
 
-## 🧩 Data Modeling
+##  Data Modeling
 
 ![Data Modeling](https://github.com/user-attachments/assets/52a6f529-0ce0-46cf-b815-51a2f4f08721)
 
@@ -24,7 +24,7 @@ This project presents a Power BI dashboard developed for **Tata Power** to uncov
 
 ## 📈 Insights & Recommendations
 
-### 🔢 Key Metrics
+###  Key Metrics
 
 | Metric                    | Value               |
 |---------------------------|---------------------|
@@ -37,7 +37,7 @@ This project presents a Power BI dashboard developed for **Tata Power** to uncov
 
 ---
 
-### 🌱 Carbon Emissions vs Power Generation (by Plant)
+###  Carbon Emissions vs Power Generation (by Plant)
 
 - Most plants emit **5%–6% carbon per unit**.
 - **JSW Neo Energy**, **ONGC Tripura**, and **Rourkela Power Station** generate high energy with moderate emissions.
@@ -45,17 +45,17 @@ This project presents a Power BI dashboard developed for **Tata Power** to uncov
 
 ---
 
-### ⚡ Energy Mix in Power Generation
+###  Energy Mix in Power Generation
 
 - **Thermal Energy:** 70%
 - **Solar Energy:** 27%
 - **Hybrid Energy:** 3%
 
-> 🔍 Thermal dominates, but solar energy shows strong adoption.
+>  Thermal dominates, but solar energy shows strong adoption.
 
 ---
 
-### 📉 Capacity & Load Insights
+###  Capacity & Load Insights
 
 - **Plant Load Factor:** Ranges from **88% to 91%**, very stable.
 - **Capacity Utilization:** Stable around **60–70%**, peaking at **80%**.
@@ -63,15 +63,15 @@ This project presents a Power BI dashboard developed for **Tata Power** to uncov
 
 ---
 
-## 📊 Visual Analysis
+##  Visual Analysis
 
-### 🌍 Carbon Emission Analysis  
+###  Carbon Emission Analysis  
 ![Carbon Emission](https://github.com/user-attachments/assets/6e71a53d-242d-45fc-be7f-a522623bcb2a)
 
-### 📈 GP Variance Analysis  
+###  GP Variance Analysis  
 ![GP Variance](https://github.com/user-attachments/assets/04b5a729-c00b-46e3-92bb-2518b7dabaa6)
 
-### 💧 Water Usage and Revenue Insights  
+###  Water Usage and Revenue Insights  
 ![Water Revenue](https://github.com/user-attachments/assets/6b2bfd8d-9bc8-4178-9681-ec8359233f3e)
 
 ### 📊 PVM Analysis  

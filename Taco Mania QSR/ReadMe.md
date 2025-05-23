@@ -1,87 +1,121 @@
-Taco Mania QSR 
+# 🌮 Taco Mania QSR – Financial Insights Dashboard
 
-Overview
-This Power BI dashboard was developed for Taco Mania, a QSR brand, providing financial insights, identifying key  business optimization opportunities, and offering budget recommendations to streamline operations.
+## Overview
 
-Live Dashboard
+This **Power BI dashboard** was developed for **Taco Mania**, a Quick Service Restaurant (QSR) brand. It provides deep financial insights, identifies business optimization opportunities, and delivers actionable budget recommendations to enhance operations and support strategic decision-making.
 
+🎯 **Key Goals**:
+- Financial Performance Overview  
+- Business Optimization Insights  
+- Financial Planning & Budget Recommendations  
 
-Problem Statement
- Key Focus Areas: Financial Performance Overview, Business Optimization Opportunities,Financial Planning & Budget Recommendations
- Objective:Deliver actionable insights using data visualization to support strategic financial decisions.
+📊 **Live Dashboard**: *(Add link here if publicly accessible)*
 
-Data Acquisition and Validation
-Primary Data Sources:
- Snowflake – Centralized data warehouse for financial and transactional data
-CRM System – Customer-level data including channel performance
-SQL Database – Budget and product SKU-level details
-Excel Files – Actual vs. budget reports
-Data Types Extracted:
-Product SKU Metadata
-Financial KPIs (Revenue, Cost, Margin)
-Planned vs. Actual Budgets
-Sales Channels (Direct,Online,Domestic etc.)
+---
 
+## 📌 Problem Statement
 
-Data Modelling
-![image](https://github.com/user-attachments/assets/380bec40-a4b8-4af2-985c-5c5c92696815)
+- **Key Focus Areas**:
+  - Financial performance analysis
+  - Operational efficiency improvements
+  - Budget utilization insights
 
+- **Objective**:
+  - Deliver **actionable insights** using interactive **data visualization** to empower strategic financial decisions.
 
-Insights and Recommandation
+---
 
-Financial Overview
-The business generated a total Net Revenue (NR) of ₹560.07 million, indicating strong sales performance.
+## 📥 Data Acquisition and Validation
 
-Gross Profit (GP) stands at ₹162.50 million, showcasing a healthy margin from overall sales.
+### 🔹 Primary Data Sources
+- **Snowflake** – Centralized data warehouse for financial and transactional data  
+- **CRM System** – Customer-level insights including channel-specific performance  
+- **SQL Database** – SKU-level product and budget information  
+- **Excel Files** – Budget vs. actual performance tracking  
 
-Actual EBITA achieved is ₹88.30 million, reflecting operational efficiency.
+### 🔹 Data Types Extracted
+- Product SKU metadata  
+- Financial KPIs (Revenue, Cost, Margin)  
+- Planned vs. Actual Budget Data  
+- Sales Channels (Direct, Online, Domestic, etc.)
 
-Profit After Tax (PAT) is ₹61.13 million, confirming strong bottom-line performance.
+---
 
-A total of 264.95K units were sold, highlighting a significant volume movement.
+## 🧱 Data Modeling
 
-The company offers a wide product portfolio, with 4,207 Stock Keeping Units (SKUs).
+![Data Model](https://github.com/user-attachments/assets/380bec40-a4b8-4af2-985c-5c5c92696815)
 
-The Frozen category is the highest revenue contributor, generating ₹221.17 million.
+---
 
-Other strong categories include Frosting with ₹81.68 million and Crumbs with ₹76.48 million.
+## 📊 Insights & Recommendations
 
-Categories such as Protein, Fresh, Cakes, and Counters contribute smaller portions to the total revenue.
+### 💰 Financial Overview
 
-Uttar Pradesh (UP) is the top-performing location with ₹193.35 million in revenue.
+- **Net Revenue (NR)**: ₹560.07 million – indicating strong sales performance.  
+- **Gross Profit (GP)**: ₹162.50 million – reflects healthy product margins.  
+- **EBITA (Actual)**: ₹88.30 million – shows solid operational efficiency.  
+- **Profit After Tax (PAT)**: ₹61.13 million – highlights bottom-line strength.  
+- **Units Sold**: 264.95K – showcases significant market demand.  
+- **SKUs**: 4,207 – indicates a broad product portfolio.
 
-Other major contributors include Karnataka (₹101.63M), Calcutta (₹97.5M), and Gujarat (₹94.27M).
+### 🧁 Revenue by Category
 
-Maharashtra and Tamil Nadu also contribute significantly to the overall revenue, though to a lesser extent.
+- **Top Category**: Frozen – ₹221.17 million  
+- Other strong performers:
+  - Frosting – ₹81.68 million  
+  - Crumbs – ₹76.48 million  
+- Lower contributors: Protein, Fresh, Cakes, Counters
 
-Business Optimization Strategy 
-Mekko Chart
-![image](https://github.com/user-attachments/assets/7d637dc3-458f-4eac-9eb0-a379559bb760)
+### 📍 Revenue by Location
 
+- **Top Location**: Uttar Pradesh – ₹193.35 million  
+- Other major locations:
+  - Karnataka – ₹101.63 million  
+  - Calcutta – ₹97.5 million  
+  - Gujarat – ₹94.27 million  
+- Notable contributors: Maharashtra, Tamil Nadu
 
-Qaudrant Analysis
-![image](https://github.com/user-attachments/assets/c3b4ed4b-f926-4a69-899a-e9f6f1483cd4)
+---
 
+## 🔧 Business Optimization Strategy
 
-Pareto Analysis (80-20)
-![image](https://github.com/user-attachments/assets/b39e391f-ebe6-4dbe-8233-d0a14c77d02f)
+### 📈 Mekko Chart
 
+![Mekko Chart](https://github.com/user-attachments/assets/7d637dc3-458f-4eac-9eb0-a379559bb760)
 
-Budgeting Analysis
-PVM Analysis
-![image](https://github.com/user-attachments/assets/734e81fe-0452-4948-bebf-fa61d5c38bbe)
+### 🔍 Quadrant Analysis
 
-Tools & Technologies
-Power BI: Used for creating interactive data visualizations, offering a user-friendly interface to explore key performance metrics.
-Power Query: Utilized for data transformation and cleaning, ensuring the dataset is structured for meaningful analysis.
-DAX (Data Analysis Expressions): Employed to create calculated columns and measures, providing deeper insights into the data.
-Microsoft PowerPoint: Used to create a concise presentation of the dashboard insights for business stakeholders.
+![Quadrant Analysis](https://github.com/user-attachments/assets/c3b4ed4b-f926-4a69-899a-e9f6f1483cd4)
 
-Thank you for Reading
+### 🧮 Pareto (80-20) Analysis
 
-Author
-Chaitanya S 
-📧 sudhakarchaitanya8@gmail.com
+![Pareto Analysis](https://github.com/user-attachments/assets/b39e391f-ebe6-4dbe-8233-d0a14c77d02f)
+
+---
+
+## 💸 Budgeting Analysis
+
+### 📊 PVM (Planned vs. Variance vs. Margin) Analysis
+
+![PVM Analysis](https://github.com/user-attachments/assets/734e81fe-0452-4948-bebf-fa61d5c38bbe)
+
+---
+
+## 🛠️ Tools & Technologies Used
+
+- **Power BI** – For interactive dashboards and KPIs  
+- **Power Query** – For data transformation and cleaning  
+- **DAX (Data Analysis Expressions)** – For custom calculations and insights  
+- **Microsoft PowerPoint** – To present insights to stakeholders  
+
+---
+
+## 🙏 Thank You for Reading
+
+**Author**: Chaitanya S  
+📧 Email: [sudhakarchaitanya8@gmail.com](mailto:sudhakarchaitanya8@gmail.com)
+
+---
 
 
 

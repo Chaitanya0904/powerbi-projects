@@ -26,6 +26,18 @@ A Python-based Azure Function is deployed via Visual Studio Code. It is triggere
 ### 5. **Power BI Dashboard**
 The transformed data from the Snowflake Data Mart is used as a live source in Power BI. The dashboard presents KPIs, product pricing trends, vendor comparisons, and insights to help understand the competitive landscape.
 
+📁 2. Stored Procedure in Snowflake
+Handles the following transformation logic:
+
+Category standardization
+
+Null handling
+
+Type casting and renaming
+
+Writes cleaned output to a structured Data Mart
+
+📊 Before vs After (Raw ➔ Transformed):
 ---
 
 

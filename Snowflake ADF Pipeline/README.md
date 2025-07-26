@@ -58,7 +58,7 @@ File Name: @concat(item().TABLE_SCHEMA, '_', item().TABLE_NAME, '.csv')
 - An Event Grid in Azure listens for file uploads to ADLS.
 - Triggers Snowpipe which ingests the newly added `.csv` into the Snowflake raw layer automatically.
 
-**📸 Screenshot:**  
+
 ![Snowpipe](Assets/snowpipe_code_snippet.png)
 
 ---
@@ -72,7 +72,7 @@ This stage cleans, standardizes, and enriches the raw product data.
 - A Python-based Azure Function (HTTP triggered) is deployed to call the Snowflake stored procedure.
 - The stored procedure is called by automatic logic using Azure Event Grid notification.
 
-**📸 Screenshot:**  
+
 ![Azure Functions](Assets/azure_functions.png)
 
 ###  2. Stored Procedure in Snowflake
@@ -109,8 +109,8 @@ This stage prepares final outputs for business consumption.
   - Category-level trends
   
 
-**📸 Screenshot:**  
-![Dashboard](Assets/dashboard.png)
+
+![Dashboard](Assets/Dashboard.png)
 
 ---
 

@@ -19,7 +19,7 @@ Two dynamic and fully parameterized ADF pipelines handle the ETL flow.
 
 #### Pipeline 1: GitHub -> Azure SQL
 
-![ADF Pipeline 1](azure_pipeline_1.png)
+![ADF Pipeline 1](Assets/azure_pipeline_1.png)
 
 - Uses a Web copy activity to ingest raw `.csv` files from GitHub.
 - Data is written to staging tables in Azure SQL with dynamic naming.
@@ -36,7 +36,7 @@ Two dynamic and fully parameterized ADF pipelines handle the ETL flow.
 
 ####  Pipeline 2: Azure SQL -> Azure Data Lake
 
-![ADF Pipeline 2](azure_pipeline_2.png)
+![ADF Pipeline 2](Assets/azure_pipeline_2.png)
 
 - Uses a ForEach activity to iterate over staging tables.
 - Dynamically writes `.csv` files to the appropriate e-commerce folder (amazon/ or flipkart/) in ADLS.
@@ -59,7 +59,7 @@ File Name: @concat(item().TABLE_SCHEMA, '_', item().TABLE_NAME, '.csv')
 - Triggers Snowpipe which ingests the newly added `.csv` into the Snowflake raw layer automatically.
 
 **📸 Screenshot:**  
-![Snowpipe](snowpipe_code_snippet.png)
+![Snowpipe](Assets/snowpipe_code_snippet.png)
 
 ---
 
@@ -73,7 +73,7 @@ This stage cleans, standardizes, and enriches the raw product data.
 - The stored procedure is called by automatic logic using Azure Event Grid notification.
 
 **📸 Screenshot:**  
-![Azure Functions](azure_functions.png)
+![Azure Functions](Assets/azure_functions.png)
 
 ###  2. Stored Procedure in Snowflake
 
@@ -88,7 +88,7 @@ Handles data transformation logic such as:
 
 | Raw Data | Transformed Data |
 |----------|------------------|
-| ![Raw](raw_data_snippet.png) | ![Transformed](transformed_data_snippet.png) |
+| ![Raw](Assets/raw_data_snippet.png) | ![Transformed](Assets/transformed_data_snippet.png) |
 
 ---
 
@@ -110,7 +110,7 @@ This stage prepares final outputs for business consumption.
   
 
 **📸 Screenshot:**  
-![Dashboard](dashboard.png)
+![Dashboard](Assets/dashboard.png)
 
 ---
 

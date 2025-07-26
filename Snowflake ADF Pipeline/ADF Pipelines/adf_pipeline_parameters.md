@@ -16,7 +16,7 @@ Pipeline-Level Parameters
 
 @concat('raw_', pipeline().parameters.platform, '_', pipeline().parameters.category)
 
-🔹 Pipeline 2: AzureSQL_To_ADLS
+Pipeline 2: AzureSQL_To_ADLS
 
  Source Schema Name
 

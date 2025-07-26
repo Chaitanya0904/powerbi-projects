@@ -1,33 +1,77 @@
-#  Competitive Pricing Intelligence Tracker
+ Competitive Pricing Intelligence Tracker
 
-A full-stack data engineering and analytics project that scrapes product data from Flipkart & Amazon, stores and transforms it in Snowflake, and visualizes insights in Power BI.
+An End to end ETL pipeline for tracking competitive pricing across e-commerce platforms (Amazon & Flipkart). The project includes automated scraping, dynamic data movement through Azure, transformation in Snowflake, and interactive insights using Power BI.
 
----
+ EXTRACT
 
-##  Workflow Overview
+This stage involves collecting raw product pricing data and pushing it into the raw Snowflake layer.
 
-### 1. **Data Scraping**
-Product data such as title, brand, price, ratings, and reviews is scraped from Flipkart and Amazon using a Beautifulsoup Python script. The extracted data is saved as CSV files and uploaded to GitHub. These files serve as the raw input source for the ETL pipelines.
+ 1. Web Scraping
 
-### 2. **ETL Pipelines with Azure Data Factory**
-Two parameterized pipelines are created using ADF:
+A Python script scrapes pricing and metadata of products from Amazon and Flipkart.
 
-- **Pipeline 1 (GitHub to Azure SQL):** Copies raw CSV files from GitHub into staging tables in Azure SQL Database using the Web activity.
-- **Pipeline 2 (Azure SQL to Azure Data Lake):** Extracts records from Azure SQL and stores them in Azure Data Lake Storage in clean `.csv` format, organized by platform (Amazon/Flipkart).
+The scraped .csv files are uploaded to a public GitHub repo for continuous access.
 
-Both pipelines are dynamic, reusable, and configured with pipeline-level parameters.
+ 2. Azure Data Factory Pipelines
 
-### 3. **Snowflake Integration**
-Snowpipe is set up to automatically load files from Azure Blob into the Snowflake `raw` table using Azure Event Grid notifications. This allows for incremental ingestion as new data arrives. A stored procedure is used to apply business logic and transformations on the data.
+Two dynamic and fully parameterized ADF pipelines handle the ETL flow.
 
-### 4. **Azure Functions**
-A Python-based Azure Function is deployed via Visual Studio Code. It is triggered by an HTTP request and invokes the Snowflake stored procedure. This serverless architecture enables modular and on-demand execution of transformations.
+ Pipeline 1: GitHub ➔ Azure SQL
 
-### 5. **Power BI Dashboard**
-The transformed data from the Snowflake Data Mart is used as a live source in Power BI. The dashboard presents KPIs, product pricing trends, vendor comparisons, and insights to help understand the competitive landscape.
+Uses a Web copy activity to ingest raw .csv files from GitHub.
 
-📁 2. Stored Procedure in Snowflake
-Handles the following transformation logic:
+Data is written to staging tables in Azure SQL with dynamic naming.
+
+Sink Table: raw_amazon_Smart Watches
+
+Parameters used:
+
+@concat('Data%20Scraping/', pipeline().parameters.platform, '/', pipeline().parameters.platform, '_', replace(pipeline().parameters.category, ' ', '_'), '.csv')
+
+@concat('raw_', pipeline().parameters.platform, '_', pipeline().parameters.category)
+
+
+Pipeline 2: Azure SQL ➔ Azure Data Lake
+
+Uses a ForEach activity to iterate over staging tables.
+
+Dynamically writes .csv files to the appropriate e-commerce folder (amazon/ or flipkart/) in ADLS.
+
+ Dynamic Parameters:
+
+Schema Name: @item().table_schema
+
+Table Name: @item().table_name
+
+Directory: @if(contains(item().TABLE_NAME, 'amazon'), 'amazon', 'flipkart')
+
+File Name: @concat(item().TABLE_SCHEMA, '_', item().TABLE_NAME, '.csv')
+
+
+
+ 3. Snowpipe - Incremental Load
+
+An Event Grid in Azure listens for file uploads to ADLS.
+
+Triggers Snowpipe which ingests the newly added .csv into the Snowflake raw layer automatically.
+
+
+
+ TRANSFORM
+
+This stage cleans, standardizes, and enriches the raw product data.
+
+ 1. Azure Functions (Python)
+
+A Python-based Azure Function (HTTP triggered) is deployed to call the Snowflake stored procedure.
+
+The stored procedure is called by automatic logic using azure event grid notification.
+
+
+
+ 2. Stored Procedure in Snowflake
+
+Handles data transformation logic:
 
 Category standardization
 
@@ -35,11 +79,36 @@ Null handling
 
 Type casting and renaming
 
-Writes cleaned output to a structured Data Mart
+Writes cleaned output to a structured Data Mart.
 
-📊 Before vs After (Raw ➔ Transformed):
----
+Before vs After (Raw ➔ Transformed):
+
+Raw Data
+
+Transformed Data
 
 
+
+
+
+ LOAD
+
+This stage prepares final outputs for business consumption.
+
+ Data Mart
+
+The cleaned and transformed data is stored in a dimensional format.
+
+Supports efficient querying for BI tools.
+
+ Power BI Dashboard
+
+Directly connected to the Snowflake Data Mart.
+
+Offers insights such as:
+
+Price comparisons across platforms
+
+Category-level trends
 
 

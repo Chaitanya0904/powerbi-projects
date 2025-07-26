@@ -4,17 +4,17 @@
 
 This **Power BI dashboard** was developed for **Taco Mania**, a Quick Service Restaurant (QSR) brand. It provides deep financial insights, identifies business optimization opportunities, and delivers actionable budget recommendations to enhance operations and support strategic decision-making.
 
-🎯 **Key Goals**:
+ **Key Goals**:
 - Financial Performance Overview  
 - Business Optimization Insights  
 - Financial Planning & Budget Recommendations  
 
-📊 **Live Dashboard**: 
+ **Live Dashboard**: 
 (https://app.powerbi.com/view?r=eyJrIjoiNmIyZDgwYmYtYzRiMS00NTFlLTk4MjgtYmIyYTQ0ZTE1YzdjIiwidCI6ImRiMDlkOWRmLWM4NmQtNDAyMy05YzY2LWM2M2JlMWJkY2U4ZCJ9)
 
 ---
 
-## 📌 Problem Statement
+##  Problem Statement
 
 - **Key Focus Areas**:
   - Financial performance analysis
@@ -26,7 +26,7 @@ This **Power BI dashboard** was developed for **Taco Mania**, a Quick Service Re
 
 ---
 
-## 📥 Data Acquisition and Validation
+##  Data Acquisition and Validation
 
 ### 🔹 Primary Data Sources
 - **Snowflake** – Centralized data warehouse for financial and transactional data  
@@ -48,7 +48,7 @@ This **Power BI dashboard** was developed for **Taco Mania**, a Quick Service Re
 
 ---
 
-## 📊 Insights & Recommendations
+##  Insights & Recommendations
 
 ###  Financial Overview
 
@@ -80,15 +80,15 @@ This **Power BI dashboard** was developed for **Taco Mania**, a Quick Service Re
 
 ##  Business Optimization Strategy
 
-### 📈 Mekko Chart
+###  Mekko Chart
 
 ![Mekko Chart](https://github.com/user-attachments/assets/7d637dc3-458f-4eac-9eb0-a379559bb760)
 
-### 🔍 Quadrant Analysis
+###  Quadrant Analysis
 
 ![Quadrant Analysis](https://github.com/user-attachments/assets/c3b4ed4b-f926-4a69-899a-e9f6f1483cd4)
 
-### 🧮 Pareto (80-20) Analysis
+###  Pareto (80-20) Analysis
 
 ![Pareto Analysis](https://github.com/user-attachments/assets/b39e391f-ebe6-4dbe-8233-d0a14c77d02f)
 
@@ -96,13 +96,13 @@ This **Power BI dashboard** was developed for **Taco Mania**, a Quick Service Re
 
 ##  Budgeting Analysis
 
-### 📊 PVM (Planned vs. Variance vs. Margin) Analysis
+###  PVM (Planned vs. Variance vs. Margin) Analysis
 
 ![PVM Analysis](https://github.com/user-attachments/assets/734e81fe-0452-4948-bebf-fa61d5c38bbe)
 
 ---
 
-## 🛠️ Tools & Technologies Used
+##  Tools & Technologies Used
 
 - **Power BI** – For interactive dashboards and KPIs  
 - **Power Query** – For data transformation and cleaning  

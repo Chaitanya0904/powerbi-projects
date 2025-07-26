@@ -1,6 +1,6 @@
-# ⚡ TATA Power Dashboard
+#  TATA Power Dashboard
 
-## 📊 Overview
+##  Overview
 This project presents a Power BI dashboard developed for **Tata Power** to uncover insights around **carbon emissions**, **PVM analysis**, **water usage**, **revenue trends**, and **operational efficiency**. The goal is to support sustainability and performance improvements across power plants.
 
 👉 **[View Live Dashboard]
@@ -8,7 +8,7 @@ This project presents a Power BI dashboard developed for **Tata Power** to uncov
 
 ---
 
-## 💡 Problem Statement
+##  Problem Statement
 
 -  Visualize and analyze power generation trends across energy types.
 -  Assess carbon emissions per plant to support environmental strategies.
@@ -22,7 +22,7 @@ This project presents a Power BI dashboard developed for **Tata Power** to uncov
 
 ---
 
-## 📈 Insights & Recommendations
+##  Insights & Recommendations
 
 ###  Key Metrics
 
@@ -59,7 +59,7 @@ This project presents a Power BI dashboard developed for **Tata Power** to uncov
 
 - **Plant Load Factor:** Ranges from **88% to 91%**, very stable.
 - **Capacity Utilization:** Stable around **60–70%**, peaking at **80%**.
-- 👉 Indicates **high efficiency with room for improvement**.
+-  Indicates **high efficiency with room for improvement**.
 
 ---
 
@@ -74,12 +74,12 @@ This project presents a Power BI dashboard developed for **Tata Power** to uncov
 ###  Water Usage and Revenue Insights  
 ![Water Revenue](https://github.com/user-attachments/assets/6b2bfd8d-9bc8-4178-9681-ec8359233f3e)
 
-### 📊 PVM Analysis  
+###  PVM Analysis  
 ![PVM](https://github.com/user-attachments/assets/e422b4c7-5e14-46b6-9165-e1e24750575d)
 
 ---
 
-## 🛠️ Tools & Technologies Used
+##  Tools & Technologies Used
 
 - **Power BI** – Interactive dashboards and KPIs  
 - **Power Query** – Data transformation and preparation  

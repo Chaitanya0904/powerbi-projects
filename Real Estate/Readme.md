@@ -1,6 +1,6 @@
 # Real Estate Dashboard
 
-## 📊 Overview
+##  Overview
 
 This Power BI dashboard provides insights into **walk-in customer patterns**, **demographics**, and **competitor financials** for a real estate firm. The goal is to understand customer behavior, optimize marketing efforts, and evaluate the company’s market position.
 
@@ -9,7 +9,7 @@ This Power BI dashboard provides insights into **walk-in customer patterns**, **
 
 ---
 
-## 💡 Problem Statement
+## Problem Statement
 
 -  Identify patterns in walk-in traffic to improve targeting strategies.
 -  Analyze customer preferences and sales team performance.
@@ -25,7 +25,7 @@ This Power BI dashboard provides insights into **walk-in customer patterns**, **
 
 ---
 
-## 📈 Insights & Recommendations
+##  Insights & Recommendations
 
 ###  Walk-in Analysis  
 Understand peak visitor times, most effective sources, and high-performing sales team members.  
@@ -51,7 +51,7 @@ Track how liquidity and leadership changes impact business outcomes.
 
 ---
 
-## 🛠️ Tools & Technologies Used
+## Tools & Technologies Used
 
 - **Power BI** – Interactive dashboards and KPI visuals  
 - **Power Query** – For data cleaning and transformation  

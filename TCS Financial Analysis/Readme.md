@@ -1,4 +1,4 @@
-# 📊 TCS Financial Analysis
+#  TCS Financial Analysis
 
 ##  Overview
 
@@ -15,15 +15,15 @@ This dashboard provides a **comprehensive financial analysis** of TCS, highlight
 
 ---
 
-## 💡 Problem Statement
+##  Problem Statement
 
-- 📌 Income Statement Analysis  
-- 📌 Balance Sheet Analysis  
-- 📌 Cash Flow Analysis
+-  Income Statement Analysis  
+-  Balance Sheet Analysis  
+-  Cash Flow Analysis
 
 ---
 
-## 📥 Data Acquisition & Validation
+##  Data Acquisition & Validation
 
 - Extracted **10 years of financial data** (Income Statement, Balance Sheet, Cash Flow)  
 - Sourced via API from financial data portals  
@@ -37,7 +37,7 @@ This dashboard provides a **comprehensive financial analysis** of TCS, highlight
 
 ---
 
-## 📈 Key Financial Metrics (Latest Year)
+##  Key Financial Metrics (Latest Year)
 
 - **Net Profit**: ₹338.37K  
 - **Sales**: ₹1.65M  
@@ -46,7 +46,7 @@ This dashboard provides a **comprehensive financial analysis** of TCS, highlight
 
 ---
 
-## 🔼 Year-over-Year (YoY) Growth
+##  Year-over-Year (YoY) Growth
 
 - **Net Profit**: +15.69%  
 - **Sales**: +17.07%  
@@ -55,7 +55,7 @@ This dashboard provides a **comprehensive financial analysis** of TCS, highlight
 
 ---
 
-## 📊 Asset Distribution (2024)
+##  Asset Distribution (2024)
 
 - **Current Assets**: 62.69%  
 - **Non-Current Assets**: 37.31%  
@@ -63,7 +63,7 @@ This dashboard provides a **comprehensive financial analysis** of TCS, highlight
 
 ---
 
-## 🧾 Common Sizing (Balance Sheet Composition)
+##  Common Sizing (Balance Sheet Composition)
 
 - **Equity**: 91.86%  
 - **Non-Current Liabilities**: ~8%  
@@ -108,7 +108,7 @@ This dashboard provides a **comprehensive financial analysis** of TCS, highlight
 
 ---
 
-## 🛠️ Tools & Technologies Used
+## 🛠 Tools & Technologies Used
 
 - **Power BI** – For interactive dashboards and KPIs  
 - **Power Query** – For data transformation and cleaning  

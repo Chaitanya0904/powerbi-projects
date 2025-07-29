@@ -1,7 +1,7 @@
-#  TATA Power Dashboard
+#  GOVT OPEN DATA POWER SECTOR DASHBOARD
 
 ##  Overview
-This project presents a Power BI dashboard developed for **Tata Power** to uncover insights around **carbon emissions**, **PVM analysis**, **water usage**, **revenue trends**, and **operational efficiency**. The goal is to support sustainability and performance improvements across power plants.
+This project presents a Power BI dashboard developed for **Nationwide power and thermal plants** to uncover insights around **carbon emissions**, **PVM analysis**, **water usage**, **revenue trends**, and **operational efficiency**. The goal is to support sustainability and performance improvements across power plants.
 
 👉 **[View Live Dashboard]
 ("https://app.powerbi.com/view?r=eyJrIjoiNTMyZmMyNzctMmNkYS00ZjFjLWExY2EtOTM5ZTVkNDc0ZjhlIiwidCI6ImRiMDlkOWRmLWM4NmQtNDAyMy05YzY2LWM2M2JlMWJkY2U4ZCJ9")

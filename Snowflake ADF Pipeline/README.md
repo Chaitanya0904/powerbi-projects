@@ -4,6 +4,8 @@ An end-to-end ETL pipeline for tracking competitive pricing across e-commerce pl
 
 ---
 
+![Diagram](Assets/data_pipeline_github_readme.png)
+
 ##  EXTRACT
 
 This stage involves collecting raw product pricing data and pushing it into the raw Snowflake layer.

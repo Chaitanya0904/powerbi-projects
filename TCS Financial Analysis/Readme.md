@@ -23,11 +23,15 @@ This dashboard provides a **comprehensive financial analysis** of TCS, highlight
 
 ---
 
-##  Data Acquisition & Validation
+##  Data Acquisition 
 
-- Extracted **10 years of financial data** (Income Statement, Balance Sheet, Cash Flow)  
-- Sourced via API from financial data portals  
-- Cleaned and validated using Power Query  
+- Scraped **Income Statement, Balance Sheet, and Cash Flow Statement** data using **BeautifulSoup in Jupyter Notebook**  
+- Saved the raw data into CSV files  
+- Imported the CSVs into **SQL Server Management Studio (SSMS)** using import data wizard 
+  ![SQL Table Creation](assets/create_table_script.png)
+- Created a **SQL View** to convert the wide-format data into long-format for easier analysis and connected it to  Power BI  
+  ![SQL View Script](assets/create_view_script.png)
+-Transformed the raw data into fact and dim tables for each statements using power query (The file is available in assets)
 
 ---
 

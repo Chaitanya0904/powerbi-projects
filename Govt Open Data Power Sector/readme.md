@@ -18,14 +18,18 @@ This project presents a Power BI dashboard developed for **Nationwide power and 
 ## Data Acquisition
 
 - Generated a personal API key from the [Government Open Data Portal](https://data.gov.in).
-- Used a Python script to fetch data using the API, cleaned it with `pandas`, and stored it in a **SQL Server** database.
-- Confirmed successful data loading through terminal logs and SQL table outputs.
+- Used a custom Python script to fetch data through the API, clean it using `pandas`, and load it into a **SQL Server** database using `SQLAlchemy`.
+- Verified successful data ingestion using both script logs and SQL Server results.
 
 
 
-- ![Python API Script](./Govt%20Open%20Data%20Power%20%20Sector/python_api_script.png)
-- ![Successful Execution](./Govt%20Open%20Data%20Power%20%20Sector/success.png)
-- ![SQL Table Output](./Govt%20Open%20Data%20Power%20%20Sector/sql_result.png)
+  ![Python API Script](python_api_script.png)
+  ![Successful Execution](success.png)
+  ![SQL Table Output](sql_result.png)
+
+---
+
+
 
 ---
 

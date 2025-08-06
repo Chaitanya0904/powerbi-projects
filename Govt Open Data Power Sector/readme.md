@@ -1,24 +1,38 @@
-#  GOVT OPEN DATA POWER SECTOR DASHBOARD
+# GOVT OPEN DATA POWER SECTOR DASHBOARD
 
-##  Overview
+## Overview
 This project presents a Power BI dashboard developed for **Nationwide power and thermal plants** to uncover insights around **carbon emissions**, **PVM analysis**, **water usage**, **revenue trends**, and **operational efficiency**. The goal is to support sustainability and performance improvements across power plants.
 
-👉 **[View Live Dashboard]
-("https://app.powerbi.com/view?r=eyJrIjoiNTMyZmMyNzctMmNkYS00ZjFjLWExY2EtOTM5ZTVkNDc0ZjhlIiwidCI6ImRiMDlkOWRmLWM4NmQtNDAyMy05YzY2LWM2M2JlMWJkY2U4ZCJ9")
+👉 **[View Live Dashboard](https://app.powerbi.com/view?r=eyJrIjoiNTMyZmMyNzctMmNkYS00ZjFjLWExY2EtOTM5ZTVkNDc0ZjhlIiwidCI6ImRiMDlkOWRmLWM4NmQtNDAyMy05YzY2LWM2M2JlMWJkY2U4ZCJ9)**
 
 ---
 
-##  Problem Statement
+## Problem Statement
 
--  Visualize and analyze power generation trends across energy types.
--  Assess carbon emissions per plant to support environmental strategies.
--  Identify operational inefficiencies and improvement areas via PVM analysis.
+- Visualize and analyze power generation trends across energy types.
+- Assess carbon emissions per plant to support environmental strategies.
+- Identify operational inefficiencies and improvement areas via PVM analysis.
 
 ---
 
-##  Data Modeling
+## Data Acquisition
+
+- Generated a personal API key from the [Government Open Data Portal](https://data.gov.in).
+- Used a Python script to fetch data using the API, cleaned it with `pandas`, and stored it in a **SQL Server** database.
+- Confirmed successful data loading through terminal logs and SQL table outputs.
+
+
+
+- ![Python API Script](./Govt%20Open%20Data%20Power%20%20Sector/python_api_script.png)
+- ![Successful Execution](./Govt%20Open%20Data%20Power%20%20Sector/success.png)
+- ![SQL Table Output](./Govt%20Open%20Data%20Power%20%20Sector/sql_result.png)
+
+---
+
+## Data Modeling
 
 ![Data Modeling](https://github.com/user-attachments/assets/52a6f529-0ce0-46cf-b815-51a2f4f08721)
+
 
 ---
 

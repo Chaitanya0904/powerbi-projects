@@ -3,7 +3,7 @@
 ## Overview
 This project presents a Power BI dashboard developed for **Nationwide power and thermal plants** to uncover insights around **carbon emissions**, **PVM analysis**, **water usage**, **revenue trends**, and **operational efficiency**. The goal is to support sustainability and performance improvements across power plants.
 
-👉 **[View Live Dashboard](https://app.powerbi.com/view?r=eyJrIjoiNTMyZmMyNzctMmNkYS00ZjFjLWExY2EtOTM5ZTVkNDc0ZjhlIiwidCI6ImRiMDlkOWRmLWM4NmQtNDAyMy05YzY2LWM2M2JlMWJkY2U4ZCJ9)**
+ **[View Live Dashboard](https://app.powerbi.com/view?r=eyJrIjoiNTMyZmMyNzctMmNkYS00ZjFjLWExY2EtOTM5ZTVkNDc0ZjhlIiwidCI6ImRiMDlkOWRmLWM4NmQtNDAyMy05YzY2LWM2M2JlMWJkY2U4ZCJ9)**
 
 ---
 
@@ -21,12 +21,11 @@ This project presents a Power BI dashboard developed for **Nationwide power and 
 - Used a custom Python script to fetch data through the API, clean it using `pandas`, and load it into a **SQL Server** database using `SQLAlchemy`.
 - Verified successful data ingestion using both script logs and SQL Server results.
 
+### 
 
-
-  ![Python API Script](python_api_script.png)
-  ![Successful Execution](success.png)
-  ![SQL Table Output](sql_result.png)
-
+- ![Python API Script](python_api_script.png)
+- ![Successful Execution](success.png)
+- ![SQL Table Output](sql_result.png)
 ---
 
 
@@ -97,11 +96,13 @@ This project presents a Power BI dashboard developed for **Nationwide power and 
 
 ---
 
-##  Tools & Technologies Used
+## Tools & Technologies Used
 
 - **Power BI** – Interactive dashboards and KPIs  
 - **Power Query** – Data transformation and preparation  
 - **DAX** – Custom metrics and data insights  
+- **SQL Server** – Data storage and querying  
+- **Python** – API-based data extraction and SQL loading  
 - **Microsoft PowerPoint** – Stakeholder presentation
 
 ---
